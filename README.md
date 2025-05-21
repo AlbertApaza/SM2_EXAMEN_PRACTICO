@@ -20,7 +20,8 @@
 | Paso | Descripción | Imagen |
 |------|-------------|--------|
 | 1 | Login con Firebase | ![](imagenesReadme/1Login.png) |
-| 2 | Seleccionar Marcadores con peligros Reportados | ![](imagenesReadme/11H05SeleccionarReporte.png) |
+| 2 | Alternar a mapa de Reportes y Rutas | ![](imagenesReadme/2SeleccionarAlternarRutasMarcadores.png) |
+| 3 | Seleccionar Marcadores con peligros Reportados | ![](imagenesReadme/11H05SeleccionarReporte.png) |
 | 2 | Visualizar informacion de los peligros y hasta imagenes | ![](imagenesReadme/12H05VerReporte.png) |
 
 
