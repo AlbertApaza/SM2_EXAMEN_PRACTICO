@@ -1,8 +1,6 @@
-
-
-# 📘 Examen Práctico - Unidad II  
-### ALBERT KENYI APAZA CCALLE  
-**Código:** 2021071075  
+# 📘 Examen Práctico - Unidad II
+### ALBERT KENYI APAZA CCALLE
+**Código:** 2021071075
 
 ---
 
@@ -12,6 +10,68 @@
 |--------|-------------|
 | **H04** | Permitir ver detalles de riesgo al tocar una zona del mapa. |
 | **H06** | Permitir al usuario ingresar origen y destino, calcular ruta priorizando seguridad y mostrarla visualmente en el mapa. |
+
+---
+
+## 🗂️ Código Fuente Relevante
+
+El código base fue tomado del repositorio:
+
+🔗 [https://github.com/Teamggez/moviles2Proyecto](https://github.com/Teamggez/moviles2Proyecto)
+
+Las funcionalidades de las historias de usuario **H04** y **H06** están implementadas principalmente en el archivo:
+
+📄 `lib/screens/screenRutaSegura.dart`
+
+---
+
+## 🔗 Repositorio GitHub del Proyecto
+
+👉 [https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO](https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO)
+
+---
+
+## 🚀 Release Oficial del Proyecto
+
+🔖 Versión estable 1.0.0V publicada en GitHub:
+
+👉 [https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO/releases/tag/1.0.0V](https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO/releases/tag/1.0.0V)
+
+---
+
+## 🛠️ Paso a Paso para Ejecutar el Proyecto
+
+Sigue estos pasos para clonar y ejecutar el proyecto en tu entorno local:
+
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO.git
+    ```
+
+2.  **Navegar al directorio del proyecto:**
+    ```bash
+    cd SM2_EXAMEN_PRACTICO
+    ```
+
+3.  **Verificar la configuración de Flutter y las dependencias del proyecto (opcional pero recomendado):**
+    ```bash
+    flutter doctor --verbose
+    ```
+
+4.  **Obtener las dependencias del proyecto:**
+    ```bash
+    flutter pub get
+    ```
+
+5.  **Ejecutar la aplicación:**
+    ```bash
+    flutter run
+    ```
+    *   **Nota:** El punto de entrada principal de la aplicación es `lib/main.dart`.
+    *   Asegúrate de tener un dispositivo Android físico conectado con la **Depuración por USB habilitada** o un **Emulador de Android Studio** configurado (API 34 mínima recomendada).
+
+6.  **Probar la aplicación:**
+    Una vez que la aplicación se compile e instale en tu dispositivo/emulador, podrás interactuar con las funcionalidades implementadas.
 
 ---
 
@@ -53,7 +113,7 @@
 
 ---
 
-## 🛠️ Entorno Flutter y Dependencias Usadas
+## 📊 Entorno Flutter y Dependencias Usadas
 
 | Dependencia               | Versión     | Funcionalidad Principal                                              |
 |---------------------------|-------------|----------------------------------------------------------------------|
@@ -68,31 +128,4 @@
 | `geocoding`               | ^2.0.5      | Conversión entre direcciones y coordenadas                          |
 | `flutter_map`             | ^4.0.0      | Alternativa a Google Maps con renderizado personalizado de mapas    |
 
-## 🗂️ Código Fuente Relevante
-
-El código base fue tomado del repositorio:
-
-🔗 [https://github.com/Teamggez/moviles2Proyecto](https://github.com/Teamggez/moviles2Proyecto)
-
-Las funcionalidades de las historias de usuario **H04** y **H06** están implementadas principalmente en el archivo:
-
-📄 `lib/screens/screenRutaSegura.dart`
-
 ---
-
-## 🚀 Release Oficial del Proyecto
-
-🔖 Versión estable 1.0.0V publicada en GitHub:
-
-👉 [https://github.com/AlbertApaza/SM2\_EXAMEN\_PRACTICO/releases/tag/1.0.0V](https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO/releases/tag/1.0.0V)
-
----
-
-
----
-
-## 🔗 Repositorio GitHub del Proyecto
-
-👉 [https://github.com/AlbertApaza/SM2\_EXAMEN\_PRACTICO](https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO)
-
-
