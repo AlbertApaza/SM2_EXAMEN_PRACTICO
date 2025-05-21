@@ -24,7 +24,7 @@ jobs:
         pandoc README.md -o README.pdf --pdf-engine=xelatex
 
     - name: 📤 Subir PDF como artefacto
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: readme-pdf
         path: README.pdf
