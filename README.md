@@ -39,6 +39,7 @@
 | 5 | Ingresar punto de destino | ![](imagenesReadme/7H04Destino.png) |
 | 6 | Visualización de ambos puntos | ![](imagenesReadme/8H04OrigenDestino.png) |
 | 7 | Ruta segura trazada en el mapa | ![](imagenesReadme/9H04TrazarRuta.png) |
+| 8 | Ruta segura trazada en el mapa | ![](imagenesReadme/10H04TrazarRuta.png) |
 
 ---
 
