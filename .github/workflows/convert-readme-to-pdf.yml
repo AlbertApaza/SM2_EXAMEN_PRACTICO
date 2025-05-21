@@ -1,0 +1,30 @@
+name: Convert README.md to PDF
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Clonar el repositorio
+      uses: actions/checkout@v3
+
+    - name: 📦 Instalar Pandoc y LaTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y pandoc texlive texlive-latex-extra
+
+    - name: 📄 Convertir README.md a PDF
+      run: |
+        pandoc README.md -o README.pdf --pdf-engine=xelatex
+
+    - name: 📤 Subir PDF como artefacto
+      uses: actions/upload-artifact@v3
+      with:
+        name: readme-pdf
+        path: README.pdf
