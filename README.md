@@ -1,39 +1,62 @@
-# SM2_EXAMEN_PRACTICO
+# 📘 Examen Práctico - Unidad II  
+### ALBERT KENYI APAZA CCALLE  
+**Código:** 2021071075  
 
-## 📝 Descripción del Proyecto
+---
 
-Este proyecto fue desarrollado como parte del examen práctico de la Unidad II. Se implementaron las siguientes dos historias de usuario del Product Backlog:
+## 🔖 Historias de Usuario Implementadas
 
-1. **Ver detalles de riesgo al tocar una zona del mapa.**
-2. **Ingresar origen y destino, calcular ruta priorizando seguridad y mostrarla visualmente en el mapa.**
+| Código | Descripción |
+|--------|-------------|
+| **H04** | Permitir ver detalles de riesgo al tocar una zona del mapa. |
+| **H06** | Permitir al usuario ingresar origen y destino, calcular ruta priorizando seguridad y mostrarla visualmente en el mapa. |
 
-## 🖼️ Capturas de Funcionalidades (SVG)
+---
 
-### 1. Detalles de Riesgo
+## 📱 Capturas de Funcionalidad
 
-<svg width="300" height="180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#f0f0f0"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-size="16" fill="#333">Imagen: Detalles de Riesgo</text>
-</svg>
+### 🔹 H04 - Ver detalles de riesgo al tocar una zona del mapa
 
-### 2. Ruta Segura Calculada
+| Paso | Descripción | Imagen |
+|------|-------------|--------|
+| 1 | Login con Firebase | ![](imagenesReadme/1Login.png) |
+| 2 | Solicitud de permiso de ubicación | ![](imagenesReadme/3H04PreguntaUbicacionActual.png) |
+| 3 | Solicitud del sistema para acceder a la ubicación | ![](imagenesReadme/4H04SolicitudUbicacionActual.png) |
+| 4 | Ubicación actual mostrada en el mapa | ![](imagenesReadme/5H04SitioActual.png) |
+| 5 | Selección de marcador y visualización de riesgos | ![](imagenesReadme/2SeleccionarAlternarRutasMarcadores.png) |
 
-<svg width="300" height="180" xmlns="http://www.w3.org/2000/svg">
-  <rect width="100%" height="100%" fill="#e0e0e0"/>
-  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-size="16" fill="#222">Imagen: Ruta Segura Calculada</text>
-</svg>
+---
+
+### 🔹 H06 - Ruta segura: origen, destino y visualización
+
+| Paso | Descripción | Imagen |
+|------|-------------|--------|
+| 1 | Ingresar punto de origen | ![](imagenesReadme/6H04Origen.png) |
+| 2 | Ingresar punto de destino | ![](imagenesReadme/7H04Destino.png) |
+| 3 | Visualización de ambos puntos | ![](imagenesReadme/8H04OrigenDestino.png) |
+| 4 | Ruta segura trazada en el mapa | ![](imagenesReadme/9H04TrazarRuta.png) |
+
+---
 
 ## 🧰 Tecnologías y APIs Utilizadas
 
-- **Firebase** (para autenticación y backend)
-- **Google Maps API** (visualización del mapa)
-- **Google Maps Routes API** (cálculo de rutas seguras)
-- **Google Places API** (sugerencia de lugares al escribir origen/destino)
+- **Flutter** (Desarrollo multiplataforma)
+- **Firebase** (Autenticación y backend)
+- **Google Maps API** (Visualización de mapas)
+- **Google Maps Routes API** (Trazado de rutas seguras)
+- **Google Places API** (Búsqueda y autocompletado de lugares)
 
-## 🔗 Referencias
+---
 
-- [Firebase](https://firebase.google.com/)
-- [Google Maps Platform](https://developers.google.com/maps)
-- [Repositorio en GitHub](https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO)
+## 📌 Diagrama de Flujo (Mermaid)
+
+
+graph TD
+    A[Inicio] --> B[Login con Firebase]
+    B --> C[Solicitar ubicación al usuario]
+    C --> D[Mostrar mapa con ubicación actual]
+    D --> E[Seleccionar zona de riesgo]:::riesgo
+    E --> F[Mostrar detalles del riesgo]
+    D --> G[Ingresar origen y destino]:::ruta
+    G --> H[Calcular ruta segura]
+    H --> I[Mostrar ruta segura en el mapa]
