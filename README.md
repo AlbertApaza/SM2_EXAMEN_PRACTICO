@@ -55,20 +55,18 @@
 
 ## 🛠️ Entorno Flutter y Dependencias Usadas
 
-Archivo `pubspec.yaml`:
-
-dependencies:
-  cloud_firestore: ^5.6.6
-  firebase_core: ^3.13.0
-  url_launcher: ^6.3.1
-  image_picker: ^1.1.2
-  firebase_storage: ^12.4.5
-  geolocator: ^14.0.0
-  google_maps_webservice: ^0.0.18
-  flutter_polyline_points: ^1.0.0
-  geocoding: ^2.0.5
-  flutter_map: ^4.0.0
----
+| Dependencia               | Versión     | Funcionalidad Principal                                              |
+|---------------------------|-------------|----------------------------------------------------------------------|
+| `cloud_firestore`         | ^5.6.6      | Acceso a Firestore (base de datos en tiempo real)                   |
+| `firebase_core`           | ^3.13.0     | Configuración base para conectar con Firebase                       |
+| `url_launcher`            | ^6.3.1      | Abrir enlaces web, correos y otras apps desde Flutter               |
+| `image_picker`            | ^1.1.2      | Permite seleccionar imágenes desde galería o cámara                 |
+| `firebase_storage`        | ^12.4.5     | Subida y descarga de archivos desde Firebase Storage                |
+| `geolocator`              | ^14.0.0     | Obtención de ubicación actual del dispositivo                       |
+| `google_maps_webservice` | ^0.0.18     | Conexión con servicios web de Google Maps                           |
+| `flutter_polyline_points`| ^1.0.0      | Dibujar rutas (líneas) entre puntos en Google Maps                  |
+| `geocoding`               | ^2.0.5      | Conversión entre direcciones y coordenadas                          |
+| `flutter_map`             | ^4.0.0      | Alternativa a Google Maps con renderizado personalizado de mapas    |
 
 ## 🗂️ Código Fuente Relevante
 
