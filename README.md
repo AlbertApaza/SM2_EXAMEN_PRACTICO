@@ -20,10 +20,11 @@
 | Paso | Descripción | Imagen |
 |------|-------------|--------|
 | 1 | Login con Firebase | ![](imagenesReadme/1Login.png) |
-| 2 | Solicitud de permiso de ubicación | ![](imagenesReadme/3H04PreguntaUbicacionActual.png) |
-| 3 | Solicitud del sistema para acceder a la ubicación | ![](imagenesReadme/4H04SolicitudUbicacionActual.png) |
-| 4 | Ubicación actual mostrada en el mapa | ![](imagenesReadme/5H04SitioActual.png) |
-| 5 | Selección de marcador y visualización de riesgos | ![](imagenesReadme/2SeleccionarAlternarRutasMarcadores.png) |
+| 2 | Selección de marcador y visualización de riesgos | ![](imagenesReadme/2SeleccionarAlternarRutasMarcadores.png) |
+| 3 | Solicitud de permiso de ubicación | ![](imagenesReadme/3H04PreguntaUbicacionActual.png) |
+| 4 | Solicitud del sistema para acceder a la ubicación | ![](imagenesReadme/4H04SolicitudUbicacionActual.png) |
+| 5 | Ubicación actual mostrada en el mapa | ![](imagenesReadme/5H04SitioActual.png) |
+
 
 ---
 
