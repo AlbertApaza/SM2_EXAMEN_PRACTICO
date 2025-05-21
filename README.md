@@ -1,6 +1,6 @@
-# 📘 Examen Práctico - Unidad II  
-### ALBERT KENYI APAZA CCALLE  
-**Código:** 2021071075  
+# 📘 Examen Práctico - Unidad II
+### ALBERT KENYI APAZA CCALLE
+**Código:** 2021071075
 
 ---
 
@@ -21,10 +21,8 @@
 |------|-------------|--------|
 | 1 | Login con Firebase | ![](imagenesReadme/1Login.png) |
 | 2 | Alternar a mapa de Reportes y Rutas | ![](imagenesReadme/2SeleccionarAlternarRutasMarcadores.png) |
-| 3 | Seleccionar Marcadores con peligros Reportados | ![](imagenesReadme/11H05SeleccionarReporte.png) |
-| 2 | Visualizar informacion de los peligros y hasta imagenes | ![](imagenesReadme/12H05VerReporte.png) |
-
-
+| 3 | Seleccionar Marcadores con peligros reportados | ![](imagenesReadme/11H05SeleccionarReporte.png) |
+| 4 | Visualizar información de los peligros y hasta imágenes | ![](imagenesReadme/12H05VerReporte.png) |
 
 ---
 
@@ -38,8 +36,8 @@
 | 4 | Ingresar punto de origen | ![](imagenesReadme/6H04Origen.png) |
 | 5 | Ingresar punto de destino | ![](imagenesReadme/7H04Destino.png) |
 | 6 | Visualización de ambos puntos | ![](imagenesReadme/8H04OrigenDestino.png) |
-| 7 | Ruta segura trazada en el mapa | ![](imagenesReadme/9H04TrazarRuta.png) |
-| 8 | Ruta segura trazada en el mapa | ![](imagenesReadme/10H04TrazarRuta.png) |
+| 7 | Ruta segura trazada en el mapa (paso 1) | ![](imagenesReadme/9H04TrazarRuta.png) |
+| 8 | Ruta segura trazada en el mapa (paso 2) | ![](imagenesReadme/10H04TrazarRuta.png) |
 
 ---
 
@@ -53,15 +51,19 @@
 
 ---
 
-## 📌 Diagrama de Flujo (Mermaid)
+## 🗂️ Código Fuente Relevante
+
+El código base fue tomado del repositorio:
+
+🔗 [https://github.com/Teamggez/moviles2Proyecto](https://github.com/Teamggez/moviles2Proyecto)
+
+Las funcionalidades de las historias de usuario **H04** y **H06** están implementadas principalmente en el archivo:
+
+📄 `lib/screens/screenRutaSegura.dart`
+
+---
 
 
-graph TD
-    A[Inicio] --> B[Login con Firebase]
-    B --> C[Solicitar ubicación al usuario]
-    C --> D[Mostrar mapa con ubicación actual]
-    D --> E[Seleccionar zona de riesgo]:::riesgo
-    E --> F[Mostrar detalles del riesgo]
-    D --> G[Ingresar origen y destino]:::ruta
-    G --> H[Calcular ruta segura]
-    H --> I[Mostrar ruta segura en el mapa]
+
+🔗 Repositorio GitHub del Proyecto
+👉 https://github.com/AlbertApaza/SM2_EXAMEN_PRACTICO
